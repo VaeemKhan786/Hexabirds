@@ -20,7 +20,7 @@ export default function Accordions() {
         <div className="w-full  md:w-6/12 px-2">
           <Accordion
             open={open === 1}
-            className="mb-5 rounded-[10px] bg-white p-2 lg:p-3 "
+            className="mb-5 rounded-[10px] bg-white p-2 lg:p-[12px] "
           >
             <AccordionHeader
               onClick={() => handleOpen(1)}
@@ -29,7 +29,7 @@ export default function Accordions() {
               <span className="text-[20px] lg:text-2xl me-2 mb-[5px] lg:mb-2  lg:me-5">{renderIcon(1)}</span>
               Frequently Asked Questions?
             </AccordionHeader>
-            <AccordionBody className="mt-2 text-[12px] lg:text-[16px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7" >
+            <AccordionBody className="mt-2 text-[12px] lg:text-[14px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7" >
               Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
               tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In
               volutpat placerat urna consectetur sollicitudin maecenas viverra.
@@ -49,7 +49,7 @@ export default function Accordions() {
               <span className="text-[20px] lg:text-2xl me-2 mb-[5px] lg:mb-2  lg:me-5">{renderIcon(2)}</span>
               Frequently Asked Questions?
             </AccordionHeader>
-            <AccordionBody className="mt-2 text-[12px] lg:text-[16px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7">
+            <AccordionBody className="mt-2 text-[12px] lg:text-[14px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7">
               Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
               tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In
               volutpat placerat urna consectetur sollicitudin maecenas viverra.
@@ -70,7 +70,7 @@ export default function Accordions() {
               <span className="text-[20px] lg:text-2xl me-2 lg:mb-2 mb-[5px] lg:me-5">{renderIcon(3)}</span>
               Frequently Asked Questions?
             </AccordionHeader>
-            <AccordionBody className="mt-2 text-[12px] lg:text-[16px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7">
+            <AccordionBody className="mt-2 text-[12px] lg:text-[14px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7">
               Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
               tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In
               volutpat placerat urna consectetur sollicitudin maecenas viverra.
@@ -89,7 +89,7 @@ export default function Accordions() {
               <span className="text-[20px] lg:text-2xl me-2 mb-[5px] lg:mb-2  lg:me-5">{renderIcon(4)}</span>
               Frequently Asked Questions?
             </AccordionHeader>
-            <AccordionBody className="mt-2 text-[12px] lg:text-[16px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7">
+            <AccordionBody className="mt-2 text-[12px] lg:text-[14px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7">
               Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
               tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In
               volutpat placerat urna consectetur sollicitudin maecenas viverra.
@@ -99,7 +99,7 @@ export default function Accordions() {
           </Accordion>
           <Accordion
             open={open === 5}
-            className="mb-5 rounded-[10px] bg-white p-2 lg:p-3 "
+            className=" rounded-[10px] bg-white p-2 lg:p-3 "
           >
             <AccordionHeader
               onClick={() => handleOpen(5)}
@@ -108,7 +108,7 @@ export default function Accordions() {
               <span className="text-[20px] lg:text-2xl me-2 mb-[5px] lg:mb-2  lg:me-5">{renderIcon(5)}</span>
               Frequently Asked Questions?
             </AccordionHeader>
-            <AccordionBody className="mt-2 text-[12px] lg:text-[16px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7">
+            <AccordionBody className="mt-2 text-[12px] lg:text-[14px] text-gray-600 font-inter leading-[17px] ms-[18px] lg:ms-7">
               Lorem ipsum dolor sit amet consectetur. Imperdiet vulputate enim
               tortor nulla facilisi magna. Aenean ac commodo nisi vitae. In
               volutpat placerat urna consectetur sollicitudin maecenas viverra.

@@ -33,7 +33,9 @@ import Wsed from "../assets/img/Wsed.png";
 import Stsm from "../assets/img/Stsm.png";
 import {
   BusIcon,
-  Customer
+  Customer,
+  StudyIcon,
+  TimeIcon
 } from "./Icon";
 
 
@@ -45,6 +47,10 @@ import Projectimg5 from "../assets/img/Projectimg5.webp";
 import Projectimg6 from "../assets/img/Projectimg6.webp";
 import CardImg from "../assets/img/CardImg.png";
 import CardStar from "../assets/img/CardStar.png";
+import Star from "../assets/img/Star.png";
+import LearningCardImg from "../assets/img/LearningCardImg.png";
+
+import Man from "../assets/img/man.png";
 
 
 export const icons = [{
@@ -378,4 +384,180 @@ export const slides = [
   },
 
 ];
+ export const HtmlCards=[
+  {
+img:LearningCardImg,
+titel:"Complete HTML, CSS and JavaScript Course",
+rating:"(4.2)",
+star:Star,
+students:"3.4K Students",
+price:"₹ 499",
+notprice:"₹ 499",
+offervalid:"offer valid till 25th Sept.",
+study:<StudyIcon/>,
+lesson:"10 Lesson",
+time:<TimeIcon/>,
+times:"1 h 30 min",
+Beginners:"Beginners",
+Bestseller:"Bestseller",
+man:Man,
+name:"Jhon Deo",
+role:"Instructor",
+btn:"Enroll Now",
+overlayStyling:"hidden",
+ratingStar:CardStar
+  },
+  {
+img:LearningCardImg,
+titel:"Complete HTML, CSS and JavaScript Course",
+rating:"(4.2)",
+star:Star,
+students:"3.4K Students",
+price:"₹ 499",
+notprice:"₹ 499",
+overlayStyling:"hidden",
+offervalid:"offer valid till 25th Sept.",
+study:<StudyIcon/>,
+overlayStyling:"hidden",
+lesson:"10 Lesson",
+time:<TimeIcon/>,
+times:"1 h 30 min",
+Beginners:"Beginners",
+Bestseller:"Bestseller",
+man:Man,
+name:"Jhon Deo",
+role:"Instructor",
+btn:"Enroll Now",
+  },
+  {
+img:LearningCardImg,
+overlayStyling:"hidden",
+titel:"Complete HTML, CSS and JavaScript Course",
+rating:"(4.2)",
+star:Star,
+students:"3.4K Students",
+price:"₹ 499",
+notprice:"₹ 499",
+offervalid:"offer valid till 25th Sept.",
+study:<StudyIcon/>,
+lesson:"10 Lesson",
+time:<TimeIcon/>,
+times:"1 h 30 min",
+Beginners:"Beginners",
+Bestseller:"Bestseller",
+man:Man,
+name:"Jhon Deo",
+role:"Instructor",
+btn:"Enroll Now",
+  },
+  {
+img:LearningCardImg,
+titel:"Complete HTML, CSS and JavaScript Course",
+rating:"(4.2)",
+star:Star,
+students:"3.4K Students",
+price:"₹ 499",
+notprice:"₹ 499",
+offervalid:"offer valid till 25th Sept.",
+study:<StudyIcon/>,
+lesson:"10 Lesson",
+time:<TimeIcon/>,
+times:"1 h 30 min",
+Beginners:"Beginners",
+Bestseller:"Bestseller",
+man:Man,
+name:"Jhon Deo",
+role:"Instructor",
+btn:"Enroll Now",
+overlayStyling:"hidden",
+  },
+
+ ]
+ export const RecentlyAddedCourses=[
+  {
+img:LearningCardImg,
+titel:"Complete HTML, CSS and JavaScript Course",
+price:"₹ 499",
+notprice:"₹ 499",
+    star:"hidden",
+offervalid:"offer valid till 25th Sept.",
+study:<StudyIcon/>,
+lesson:"10 Lesson",
+time:<TimeIcon/>,
+times:"1 h 30 min",
+Beginners:"Beginners",
+Bestseller:"Bestseller",
+man:Man,
+name:"Jhon Deo",
+role:"Instructor",
+btn:"Enroll Now",
+newcard:"New",
+starText:`(4.2)`,
+ratingStar:CardStar
+  },
+  {
+    img:LearningCardImg,
+    titel:"Complete HTML, CSS and JavaScript Course",
+    price:"₹ 499",
+    notprice:"₹ 499",
+        star:"hidden",
+    offervalid:"offer valid till 25th Sept.",
+    study:<StudyIcon/>,
+    lesson:"10 Lesson",
+    time:<TimeIcon/>,
+    times:"1 h 30 min",
+    Beginners:"Beginners",
+    Bestseller:"Bestseller",
+    man:Man,
+    name:"Jhon Deo",
+    role:"Instructor",
+    btn:"Enroll Now",
+    newcard:"New",
+    starText:`(4.2)`,
+    ratingStar:CardStar
+      },
+      {
+        img:LearningCardImg,
+        titel:"Complete HTML, CSS and JavaScript Course",
+        price:"₹ 499",
+        notprice:"₹ 499",
+            star:"hidden",
+        offervalid:"offer valid till 25th Sept.",
+        study:<StudyIcon/>,
+        lesson:"10 Lesson",
+        time:<TimeIcon/>,
+        times:"1 h 30 min",
+        Beginners:"Beginners",
+        Bestseller:"Bestseller",
+        man:Man,
+        name:"Jhon Deo",
+        role:"Instructor",
+        btn:"Enroll Now",
+        newcard:"New",
+        starText:`(4.2)`,
+        ratingStar:CardStar
+          },
+          {
+            img:LearningCardImg,
+            titel:"Complete HTML, CSS and JavaScript Course",
+            price:"₹ 499",
+            notprice:"₹ 499",
+                star:"hidden",
+            offervalid:"offer valid till 25th Sept.",
+            study:<StudyIcon/>,
+            lesson:"10 Lesson",
+            time:<TimeIcon/>,
+            times:"1 h 30 min",
+            Beginners:"Beginners",
+            Bestseller:"Bestseller",
+            man:Man,
+            name:"Jhon Deo",
+            role:"Instructor",
+            btn:"Enroll Now",
+            newcard:"New",
+            starText:`(4.2)`,
+            ratingStar:CardStar
+              },
+
+ ]
 

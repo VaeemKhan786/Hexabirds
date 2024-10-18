@@ -17,6 +17,8 @@ export default {
         'Business-Coaching': "url('./assets/img/BusinessCoaching.webp')",  
         "slider-img":"url(./assets/img/sliderImg.png) "
       },
+      screens: {
+        'xxl': '1500px',      },
     },
   },
   plugins: [],
