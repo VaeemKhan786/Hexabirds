@@ -3,6 +3,7 @@ import ELearning from "./ELearning";
 import { HtmlCards } from "./components/Helper";
 import Card from "./components/Card";
 import SideNav from "./components/SideNav";
+import CourseDetails from "./CourseDetails";
 function App() {
 
 
@@ -15,8 +16,8 @@ function App() {
   return (
     <>
       {/* <BusinessPage/> */}
-      <ELearning />
-  
+      {/* <ELearning /> */}
+  <CourseDetails/>
 
     </>
 
