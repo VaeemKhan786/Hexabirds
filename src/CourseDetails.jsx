@@ -17,7 +17,7 @@ export default function CourseDetails() {
             <video controls className="w-full">
               <source src={Video} />
             </video>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between mt-5">
               <p className="text-[#C04000] font-outfit text-2xl">
                 Course Overview
               </p>
@@ -254,8 +254,8 @@ export default function CourseDetails() {
               <p className="font-jomolhari lg:text-2xl text-[#C04000] mt-5">
                 Reviews
               </p>
-              <div className="flex items-center justify-between mx-[-12px] mt-5">
-                <div className="w-4/12 px-3 ">
+              <div className="flex items-center justify-between mx-[-12px] mt-5 flex-wrap sm:flex-row ">
+                <div className="w-6/12 md:w-4/12 px-3 text-center">
                   <p className="text-base font-inter font-semibold">
                     Total Reviews
                   </p>
@@ -266,21 +266,21 @@ export default function CourseDetails() {
                     12% growth in reviews on this year
                   </p>
                 </div>
-                <div className="w-4/12 px-3">
+                <div className="w-6/12 md:w-4/12 px-3 text-center mt-3">
                   <p className="text-base font-inter font-semibold">
                     Average Rating
                   </p>
-                  <div className="flex items-center gap-3">
-                    <p className="text-2xl font-inter font-semibold mt-1 text-[#C04000]">
+                  <div className="flex items-center gap-3 justify-center ">
+                    <p className="text-2xl font-inter  font-semibold mt-1 text-[#C04000]">
                       4.2
                     </p>
-                    <img src={AllStar} alt="allstar" />
+                    <img className="" src={AllStar} alt="allstar" />
                   </div>
                   <p className="text-xs font-inter  mt-1 ">
                     Average rating on this year
                   </p>
                 </div>
-                <div className="w-4/12 px-3">
+                <div className="w-6/12 md:w-4/12 px-3 text-center mt-5 mx-auto ">
                   <p className="text-base font-inter font-semibold">
                     Total Reviews
                   </p>
