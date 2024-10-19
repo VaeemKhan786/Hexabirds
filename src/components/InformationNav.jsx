@@ -10,11 +10,11 @@ export default function InformationNav() {
      <div className='flex items-center gap-5'>
         <div className='flex items-center gap-[10px]'>
             <DownloadInocn/>
-            <p  className='text-sm lg:text-base font-outfit'>Download Certificate</p>
+            <p  className='text-sm lg:text-base font-outfit hidden md:block'>Download Certificate</p>
         </div>
         <div className='flex items-center gap-[10px]'>
             <ShareInocn/>
-            <p  className='text-sm lg:text-base font-outfit'>Share this course</p>
+            <p  className='text-sm lg:text-base font-outfit hidden md:block'>Share this course</p>
         </div>
      </div>
      </nav>
