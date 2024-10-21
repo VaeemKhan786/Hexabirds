@@ -9,7 +9,7 @@ function App() {
 
   
  
-
+ 
 
 
 
@@ -17,7 +17,8 @@ function App() {
     <>
       {/* <BusinessPage/> */}
       {/* <ELearning /> */}
-  <CourseDetails/>
+     
+        <CourseDetails/>
 
     </>
 

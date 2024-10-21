@@ -34,6 +34,7 @@ import Stsm from "../assets/img/Stsm.png";
 import {
   BusIcon,
   Customer,
+  DropDownArrow,
   StudyIcon,
   TimeIcon
 } from "./Icon";
@@ -561,3 +562,115 @@ ratingStar:CardStar
 
  ]
 
+
+
+ export const sections = [
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+  {
+    title: "Introduction to HTML",
+    time: "36min",
+    lessons: [
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+      { title: "CSS Integration", time: "36min", btn: "Exercise" },
+      { title: "Complete HTML, CSS and JavaScript Course", time: "36min total length"},
+    ],
+  },
+];

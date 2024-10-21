@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Accordion,
   AccordionHeader,
@@ -6,7 +6,7 @@ import {
 } from "@material-tailwind/react";
 
 export default function Accordions() {
-  const [open, setOpen] = React.useState(1);
+  const [open, setOpen] = useState(1);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
